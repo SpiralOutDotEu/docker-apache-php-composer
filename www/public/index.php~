@@ -1,0 +1,3 @@
+<? echo "<p>Hello Docker PHP Developer!!!</p>"; ?>
+<? echo "<p>Fucking Awesome!!!</p>"; ?>
+<? phpinfo();?>
