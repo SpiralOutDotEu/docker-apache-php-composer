@@ -1,13 +1,13 @@
 # docker-apache-php-composer
 Basic boilepate to start working with apache and PHP in docker
 
-#Build image 
+# Build image 
 replace "myapp" with any name you like
 don't foget the " ." at the end ;-)
 ```
 $docker build -t myapp .
 ```
-#run the container to see that is working ok
+# Run the container to see that is working ok
 ```
 $docker run -p 8080:80 -d myapp
 ```
@@ -22,7 +22,7 @@ then go to your browser and type:
 ```
 and you will see a welcome message and the phpinfo() you have installed
 
-#stop the container:
+# Stop the container:
 ```
 $docker stop docker stop $(docker ps -a -q)
 ```
@@ -35,7 +35,7 @@ check the id of the container and run
 ```
 $docker stop "id of the container"
 ```
-#Now start developing you app:
+# Now start developing you app:
 
 Run container with a mounted folder to work live.
 Replace "/home/user/www/" with any local folder you like to mount to the container.
